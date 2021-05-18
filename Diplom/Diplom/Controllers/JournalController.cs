@@ -13,7 +13,7 @@ namespace Diplom.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Journal")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    //[EnableCors(origins: "*", headers: "*", methods: "*")]
     public class JournalController : ApiController
     {
         // GET api/<controller>

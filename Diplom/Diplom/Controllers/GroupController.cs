@@ -13,7 +13,7 @@ namespace Diplom.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Group")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    //[EnableCors(origins: "*", headers: "*", methods: "*")]
     public class GroupController : ApiController
     {
         // GET api/<controller>

@@ -14,7 +14,7 @@ namespace Diplom.Controllers
 {
     [Authorize]
     [RoutePrefix("api/KeyWord")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    //[EnableCors(origins: "*", headers: "*", methods: "*")]
     public class KeyWordController : ApiController
     {
         // GET api/<controller>

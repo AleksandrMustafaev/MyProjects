@@ -13,7 +13,7 @@ namespace Diplom.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Conference")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    //[EnableCors(origins: "*", headers: "*", methods: "*")]
     public class ConferenceController : ApiController
     {
         // GET api/<controller>
